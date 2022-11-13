@@ -1,0 +1,39 @@
+p, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+nav a {
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+h2 {
+    padding: 1rem;
+}
+
+#btnsalvarDados {
+    float: center;
+}
+
+input {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+#formDados {
+    margin-top: 1rem;
+
+}
+
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+@media screen and (max-width: 680px) {
+
+    ul li {
+        display: none;
+    }
+
+}
