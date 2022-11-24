@@ -49,14 +49,10 @@
 
     //botão 
 document.getElementById ('btnsalvarDados').addEventListener ('click', editarDados);
-
-
-window.onload () {
     
-    altDados () {
-        let nomeM = document.getElementById('nomeC'); 
-        nomeM.innerHTML = `${nomeCompleto}`;
-    }
-}
+    let nomeM = document.getElementById('nomeC'); 
+    nomeM.innerHTML = `${nomeCompleto}`;
+    
+
 
 
