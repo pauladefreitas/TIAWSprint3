@@ -45,10 +45,15 @@
         localStorage.setItem('db', JSON.stringify(novoUsuario));
 
         alert('Dados salvos com sucesso!');
+
+        altDados();
     }
 
     //botão 
 document.getElementById ('btnsalvarDados').addEventListener ('click', editarDados);
 
-
+altDados () {
+    let nomeM = document.getElementById('nomeC'); 
+    nomeM.innerHTML = `${nomeCompleto}`;
+}
 
